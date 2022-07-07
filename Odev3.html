@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+    <script>
+
+        var email = "erdal@gmail.com";
+        var sifre = "memleket";
+        var kullanici_email = prompt("lütfen email giriniz");
+        var kullanici_sifre = prompt("lütfen şifrenizi giriniz");
+        if (email == kullanici_email && sifre == kullanici_sifre) {
+            console.log("email ve sifre doğrudur");
+        }
+        else if (email != kullanici_email && sifre == kullanici_sifre) {
+            console.log("email yanlış");
+        }
+        else if (email == kullanici_email && sifre != kullanici_sifre) {
+            console.log("şifre yanlış");
+        }
+        else {
+            console.log("email ve şifre yanlış");
+        }
+
+    </script>
+</body>
+</html>
